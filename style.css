@@ -1,0 +1,252 @@
+body {
+    position:fixed;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+ 
+.bg {                   /*Background*/
+    height:643px;
+    width: 420px;
+    background: linear-gradient(40deg, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    border-bottom-left-radius :250px;
+    border-bottom-right-radius: 250px;
+  }
+  
+
+.illustrate {             /* The whole illustration  */
+    position: relative;
+    left: 350px;
+    bottom: 600px;
+  }
+
+
+.outer {              /* Illustration's frame */
+    height: 580px;
+    width: 250px;
+    border: 10px solid white;
+    box-shadow:5px 5px 20px rgb(182, 180, 180);
+    border-radius: 40px;
+    position: relative
+  }
+.header {             /* App header*/
+    height: 66px;
+    width: 245px;
+    background: linear-gradient(45deg, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius :3px;
+    border-bottom-right-radius:5px;
+  }
+.notch {              /* iPhone notch */
+    width: 130px;
+    height: 24px;
+    background: white;
+    position:relative;
+    left: 60px;
+    bottom: 5px;
+    border-bottom-left-radius :15px;
+    border-bottom-right-radius: 15px;
+  }
+ .avatar {
+    width:25px;
+    height: 25px;
+    border:3px solid white;
+    border-radius: 50%;
+    margin-left: 26px;
+  }
+ .status-info {            /* User Info in the Header*/
+    font-size: 12px;
+    height: 25px;
+    color: hsl(270, 20%, 96%);
+    position:relative;
+    bottom: 30px;
+    left: 65px;
+  }
+ .name {
+    font-weight: 700;
+    color:white
+  }
+ .hamburger {
+    position:relative;
+    left: 220px;
+    bottom: 50px;
+  }
+  .one, .two, .three {
+    background: white;
+    border-radius: 50%;
+    width: 3px;
+    height: 3px;
+    margin-top: 2px;    
+  }
+
+.chat-bg {                    /* Chat & it's background */
+    background: hsl(270, 20%, 96%);
+    width: 249px;
+    height: 510px;
+    margin-top: 0px;
+    border-bottom-left-radius :27px;
+    border-bottom-right-radius: 27px;
+  }
+  .sent_1, .sent_2 {                /* Texts */
+    font-size: 13.5px;
+    color: hsl(276, 55%, 52%);
+    background-color:  hsl(294, 62%, 88%);
+    width: 160px;
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 7px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    position: relative;
+    top: 10px;
+    border-radius: 7px;
+  }
+
+  
+
+  .dogs {
+    display:flex;
+    flex-direction: row;
+    margin-left: 90px;
+    
+  }
+  .dog1, .dog2, .dog3 {
+    width: 45px;
+    height: 42px;
+    margin-left: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  .receive_1, .receive_2 {
+    background-color: white;
+    color: hsl(271, 15%, 43%);
+    font-size: 13.5px;
+    margin-top: 10px;
+    margin-left: 70px;
+    border-radius: 10px;
+   
+  }
+  .receive_1 {
+     width: 160px;
+    height: 40px;
+    padding-left: 10px;
+    padding-top: 5px;
+  }
+  .receive_2 {
+    width: 110px;
+    height: 24px;
+    margin-left: 115px;
+    padding-top: 12px;
+    padding-left: 12px;
+  }
+
+  .sent_3 {
+    font-size: 13.5px;
+    color: hsl(276, 55%, 52%);
+    background-color:  hsl(294, 62%, 88%);
+    width: 160px;
+    height: 73px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .Ssent_4, .Ssent_5 {
+    background: linear-gradient(to left, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    color: white;
+    width: 158px;
+    height: 25px;
+    margin-top: 5px;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-left: 30px;
+    font-size: 13.5px;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 5px;
+  }
+  .price {
+    position:relative;
+    left: 120px;
+    bottom: 18px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .circle {
+    width: 10px;
+    height: 10px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 50%;
+    position:relative;
+    right: 20px;
+    top: 13px;
+  }
+
+.type {               /* Bottom section where text is entered and then sent*/
+    width: 217px;
+    height: 35px;
+    border-radius: 30px;
+    background:white;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .send {
+    width: 28px;
+    height: 28px;
+    background:black;
+    border-radius: 50%;
+    position:relative;
+    bottom: 32px;
+    left: 193px;
+  }
+  .message {
+    color: hsl(206, 6%, 79%);
+    position:relative;
+    bottom: 53px;
+    left: 30px;
+    font-size: 12px;
+  }
+
+  .info {                   /* App Info */
+    position:relative;
+    left: 700px;
+    bottom: 950px;
+    width: 350px;
+    height: 160px;
+    font-size: 16px;
+  }
+
+  .info>h1 {
+    color: hsl(271, 36%, 24%);
+  }
+  .info>p {
+    color: hsl(270, 7%, 64%);
+  }
+
+
+
+@media (max-width: 376px) {         /*MEDIA QUERIES*/
+     body {
+      position: relative;
+    }
+
+    .bg {
+      width: 190px;
+      border-bottom-left-radius :0px;
+    }
+
+    .illustrate {
+      left: 80px;
+    }
+
+    .info {
+      left:40px;
+      bottom:500px;
+      width: 270px;
+      height: 230px;
+      text-align: center;
+    }
+}
+
+
